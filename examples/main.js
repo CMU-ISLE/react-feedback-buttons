@@ -13,6 +13,7 @@ class App extends React.Component {
 			<div>
 				<header>
 				<h2><a href="https://github.com/cmu-isle/react-feedback-buttons">React Feedback Buttons</a></h2>
+				<p>Attaches buttons to site element to collect feedback</p>
 				<div id="box" style={ {backgroundColor: "lightgrey", width: 300, height: 100 } }>
 					<FeedbackButtons for="box"></FeedbackButtons>
 				</div>
