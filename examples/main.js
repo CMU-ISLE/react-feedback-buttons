@@ -1,6 +1,11 @@
+// MODULES //
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import FeedbackButtons from './../src/index.js';
+
+
+// MAIN EXAMPLE APP //
 
 class App extends React.Component {
 	render () {
@@ -16,5 +21,8 @@ class App extends React.Component {
 		);
 	}
 }
+
+
+// RENDER APP //
 
 ReactDOM.render( <App />, document.querySelector( '#app' ) );
