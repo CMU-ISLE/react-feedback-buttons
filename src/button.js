@@ -85,8 +85,10 @@ class FeedbackButton extends Component {
 		* Helper function that bundles data from the feedback form and sends it to server. Passed as
 		* `submitHandler` to FeedbackForm component, it is invoked when the submit button of the form is
 		* clicked.
+		*
+		* @param {Object} event - event properties
 		*/
-		const submitFeedback = () => {
+		const submitFeedback = ( event ) => {
 			event.preventDefault();
 			removeFeedbackForm();
 
