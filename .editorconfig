@@ -17,6 +17,10 @@ indent_style = space
 indent_size = 4
 trim_trailing_whitespace = false
 
+[*.html]
+indent_style = space
+indent_size = 4
+
 [package.json]
 indent_style = space
 indent_size = 2
