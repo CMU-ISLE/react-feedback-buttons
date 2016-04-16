@@ -10,7 +10,7 @@
     "deploy": "webpack && gh-pages -d examples"
   },
   "files": [
-    "dist/index.js"
+    "src/index.js"
   ],
   "author": {
     "name": "Philipp Burckhardt",

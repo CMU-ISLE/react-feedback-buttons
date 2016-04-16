@@ -18,7 +18,7 @@ var config = {
 	],
 	output: {
 		path: path.join( __dirname, 'examples' ),
-		publicPath: '/static/',
+		publicPath: '/',
 		filename: 'bundle.js'
 	},
 	plugins: [
